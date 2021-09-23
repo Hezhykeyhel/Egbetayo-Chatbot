@@ -33,7 +33,7 @@ function getTime(){
 // Gets the time message
 
 function firstBotMessage() {
-    let firstMessage = "Welcome to Egbetayo's Bot. Let's help you get the <br> attention you need?"
+    let firstMessage = "Welcome to Egbetayo's Bot. Let's help you get the attention you need?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
